@@ -16,6 +16,8 @@ public class MainAlunoInf {
 		String nome = input.nextLine();
 		System.out.print("CPF: ");
 		String cpf = input.nextLine();
+		System.out.print("ANO DE NASCIMENTO: ");
+		int anoNascimento = input.nextInt();
 		System.out.print("INFORME A PRIMEIRA NOTA DO ALUNO: ");
 		float notaPrimeiroSemestre = input.nextFloat();
 		System.out.print("INFORME A SEGUNDA NOTA DO ALUNO: ");
@@ -30,7 +32,7 @@ public class MainAlunoInf {
 		System.out.println("INFORMACOES DO ALUNO");
 		System.out.println("=======================================");
 		
-		Aluno aluno = new Aluno(nome, cpf);
+		Aluno aluno = new Aluno(nome, cpf, anoNascimento);
 		NotasDoAluno notasDoAluno = new NotasDoAluno(notaPrimeiroSemestre,notaSegundoSemestre,notaTerceiroSemestre,notaQuartaSemestre);
 		
 		aluno.printAluno();

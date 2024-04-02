@@ -10,8 +10,6 @@ public class NotasDoAluno {
 	
 	public NotasDoAluno() {}
 	
-	
-
 	public NotasDoAluno(float notaPrimeiroSemestre, float notaSegundoSemestre, float notaTerceiroSemestre,
 			float notaQuartoSemestre) {
 		super();
@@ -20,8 +18,6 @@ public class NotasDoAluno {
 		this.notaTerceiroSemestre = notaTerceiroSemestre;
 		this.notaQuartoSemestre = notaQuartoSemestre;
 	}
-
-
 
 	public NotasDoAluno(float notaPrimeiroSemestre, float notaSegundoSemestre, float notaTerceiroSemestre,
 			float notaQuartoSemestre, float media) {
